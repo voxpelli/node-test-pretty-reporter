@@ -20,4 +20,4 @@ jobs:
     uses: voxpelli/ghatemplates/.github/workflows/type-check.yml@main
     with:
       ts-versions: ${{ github.event.schedule && 'next' || '5.1,next' }}
-      ts-libs: 'es2021;esnext'
+      ts-libs: 'es2022;esnext'
