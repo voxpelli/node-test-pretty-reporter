@@ -1,6 +1,6 @@
 {
   "name": "@voxpelli/node-test-pretty-reporter",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Reporter for node:test that supports colorful diffs etc",
   "homepage": "http://github.com/voxpelli/node-test-pretty-reporter",
   "repository": {
