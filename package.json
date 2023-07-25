@@ -62,7 +62,7 @@
     "eslint-plugin-promise": "^6.1.1",
     "eslint-plugin-security": "^1.7.1",
     "eslint-plugin-sort-destructure-keys": "^1.5.0",
-    "eslint-plugin-unicorn": "^47.0.0",
+    "eslint-plugin-unicorn": "^48.0.0",
     "husky": "^8.0.3",
     "installed-check": "^8.0.0",
     "knip": "^2.16.0",
