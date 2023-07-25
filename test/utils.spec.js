@@ -1,10 +1,7 @@
 import { describe, it } from 'node:test';
-
-import chai from 'chai';
+import assert from 'node:assert/strict';
 
 import { getErrorAndCauses } from '../lib/utils.js';
-
-chai.should();
 
 describe('Utils', () => {
   describe('getErrorAndCauses()', () => {
@@ -15,7 +12,9 @@ describe('Utils', () => {
 
       const errorAndCauses = getErrorAndCauses(err3);
 
-      errorAndCauses.should.be.an('array').of.length(3).that.deep.equals([
+      assert(Array.isArray(errorAndCauses), 'An array is returned');
+      assert(errorAndCauses.length === 3, 'The array has the correct length');
+      assert.deepStrictEqual(errorAndCauses, [
         err3,
         err2,
         err1,
