@@ -54,7 +54,7 @@
     "c8": "^8.0.0",
     "chai": "^4.3.7",
     "eslint": "^8.45.0",
-    "eslint-plugin-es-x": "^7.1.0",
+    "eslint-plugin-es-x": "^7.2.0",
     "eslint-plugin-import": "^2.27.5",
     "eslint-plugin-jsdoc": "^46.4.4",
     "eslint-plugin-mocha": "^10.1.0",
@@ -65,7 +65,7 @@
     "eslint-plugin-unicorn": "^47.0.0",
     "husky": "^8.0.3",
     "installed-check": "^8.0.0",
-    "knip": "^2.16.0",
+    "knip": "^2.16.2",
     "npm-run-all2": "^6.0.6",
     "type-coverage": "^2.26.0",
     "typescript": "~5.1.6"
