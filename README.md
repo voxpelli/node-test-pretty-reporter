@@ -50,6 +50,9 @@ When used with at least Node `18.17.0` or `20.2.0` this is supported (see [issue
 
 Since those same versions the cause chain is also printed in the built in `spec` reporter, but done through `util.inspect()` there rather than the custom output here.
 
+### Example output
+
+![CLI output](docs/cli-output.png)
 
 ## Similar modules
 
