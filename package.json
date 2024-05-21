@@ -49,7 +49,7 @@
   "devDependencies": {
     "@types/node": "^18.17.1",
     "@voxpelli/eslint-config": "^19.0.0",
-    "@voxpelli/tsconfig": "^8.0.0",
+    "@voxpelli/tsconfig": "^12.0.1",
     "c8": "^8.0.1",
     "eslint": "^8.45.0",
     "eslint-plugin-es-x": "^7.2.0",
