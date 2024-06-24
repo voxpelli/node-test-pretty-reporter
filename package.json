@@ -62,7 +62,7 @@
   },
   "dependencies": {
     "clean-stack": "^5.2.0",
-    "jest-diff": "^29.6.1",
+    "jest-diff": "^29.7.0",
     "markdown-or-chalk": "^0.1.2"
   }
 }
