@@ -21,7 +21,6 @@ export type TestsStreamEventPayloads = {
   }
 }[keyof TestsStreamEvents];
 
-
 // *** Event payloads not yet in @types/node ***
 
 export interface TestEventBasic {
@@ -29,7 +28,7 @@ export interface TestEventBasic {
 }
 
 export interface TestFileEventBasic extends TestEventBasic {
-  file: string|undefined,
+  file: string | undefined,
 }
 
 export interface TestFileEvent extends TestFileEventBasic {
@@ -43,7 +42,6 @@ export interface TestPlan extends TestFileEventBasic {
 export interface TestDiagnosticData extends TestFileEventBasic {
   message: string;
 }
-
 
 export interface TestStdout {
   file: string,
@@ -88,15 +86,15 @@ export interface TestFail extends TestFileEvent {
    * Additional execution metadata.
    */
   details: {
-      /**
-       * The duration of the test in milliseconds.
-       */
-      duration_ms: number;
+    /**
+     * The duration of the test in milliseconds.
+     */
+    duration_ms: number;
 
-      /**
-       * The error thrown by the test.
-       */
-      error: Error;
+    /**
+     * The error thrown by the test.
+     */
+    error: Error;
   };
 
   /**
@@ -120,10 +118,10 @@ export interface TestPass extends TestFileEvent {
    * Additional execution metadata.
    */
   details: {
-      /**
-       * The duration of the test in milliseconds.
-       */
-      duration_ms: number;
+    /**
+     * The duration of the test in milliseconds.
+     */
+    duration_ms: number;
   };
 
   /**
