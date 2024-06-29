@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.3](https://github.com/voxpelli/node-test-pretty-reporter/compare/v1.1.2...v1.1.3) (2024-06-29)
+
+
+### 🧹 Chores
+
+* **deps:** update linting ([4fd6953](https://github.com/voxpelli/node-test-pretty-reporter/commit/4fd6953d1d85ab2c686e01c7a31a2d6ff1a1852b))
+
 ## [1.1.2](https://github.com/voxpelli/node-test-pretty-reporter/compare/v1.1.1...v1.1.2) (2024-06-24)
 
 
