@@ -49,6 +49,7 @@
   "devDependencies": {
     "@types/node": "^18.19.40",
     "@voxpelli/eslint-config": "^22.1.0",
+    "@voxpelli/node-test-pretty-reporter": "^1.1.2",
     "@voxpelli/tsconfig": "^12.0.1",
     "c8": "^10.1.2",
     "eslint": "^9.7.0",
